@@ -1,0 +1,113 @@
+body {
+    font-family: "Roboto", sans-serif; 
+}
+.logo-header {
+    color: #000000;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 16px;
+}
+.logo-web {
+    color: #2196f3;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30.52px;
+}
+.primary-button {
+    color: #ffffff;
+    background-color: #2196f3;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16.41px;
+}
+.heder-contacts {
+    color: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.41px;
+
+}
+.heder-contacts:hover {
+    color: #2196F3;
+}
+
+.hero-title {
+    color: #ffffff;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 60px;
+}
+.section-hero {
+    background-color: #2F303A;
+}
+.section-features {
+    background-color:  #ffffff;
+}
+.section-features {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16.41px; 
+}
+.features-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.section-what-do-we-do {
+    background-color:  #ffffff;
+}
+.what-do-we-do-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42.19px; 
+}
+.section-our-team {
+    background-color: #F5F4FA;
+}
+.footer {
+    color: #ffffff;
+    background-color: #2F303A;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+}
+.our-team-item {
+    background-color: #ffffff;
+}
+.item-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+}
+.item-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+.our-team-item-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.75px;
+}
+.our-team-position {
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.75px;
+}
+.contacts {
+    color: #ffffff;
+}
+.logo-footer {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30.52px;
+}
+.section-work-examples {
+    background-color: #f5f5f5;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.41px
+}
