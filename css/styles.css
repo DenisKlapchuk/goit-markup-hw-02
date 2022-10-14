@@ -1,113 +1,143 @@
+:root {
+    --primary-color: #2196f3;
+    --background-color: #ffffff;
+    --secondary-color: #F5F4FA;
+  }
 body {
     font-family: "Roboto", sans-serif; 
 }
+a {
+   text-decoration: none;
+}
+ul {
+    list-style: none;
+}
 .logo-header {
     color: #000000;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 16px;
+    line-height: calc(16/26);
 }
 .logo-web {
-    color: #2196f3;
+    color: var(--primary-color);
     font-weight: 700;
     font-size: 26px;
-    line-height: 30.52px;
+    line-height: calc(30/26);
+}
+.nav-link {
+font-weight: 500;
+font-size: 14px;
+line-height: calc(16/14);
+letter-spacing: 0.02em;
+color: #212121;
 }
 .primary-button {
-    color: #ffffff;
-    background-color: #2196f3;
+    background-color: var(--secondary-color);
     cursor: pointer;
     font-weight: 700;
     font-size: 16px;
-    line-height: 16.41px;
+    line-height: 1em;
 }
+.primary-button:hover {
+    color: var(--background-color);
+    background-color: var(--primary-color);
+}
+.primary-button:focus {
+    color: var(--background-color);
+    background-color: var(--primary-color);
+}
+
 .heder-contacts {
     color: #757575;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16.41px;
+    line-height: calc(16/14);
 
 }
 .heder-contacts:hover {
-    color: #2196F3;
+    color: var(--primary-color);
 }
 
 .hero-title {
-    color: #ffffff;
+    color: var(--background-color);
     font-size: 44px;
     font-weight: 900;
-    line-height: 60px;
+    text-transform: uppercase;
+    line-height: calc(60/44);
 }
 .section-hero {
     background-color: #2F303A;
 }
 .section-features {
-    background-color:  #ffffff;
+    background-color:  var(--background-color);
 }
 .section-features {
     font-weight: 700;
     font-size: 14px;
-    line-height: 16.41px; 
+    line-height: calc(16/14); 
 }
 .features-text {
     font-size: 14px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: calc(24/14);
 }
 .section-what-do-we-do {
-    background-color:  #ffffff;
+    background-color:  var(--background-color);
 }
 .what-do-we-do-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 42.19px; 
+    line-height: calc(36/42); 
 }
 .section-our-team {
-    background-color: #F5F4FA;
+    background-color: var (--secondary-color);
 }
 .footer {
-    color: #ffffff;
+    color: var(--background-color);
     background-color: #2F303A;
     font-weight: 500;
     font-size: 14px;
-    line-height: 24px;
+    line-height: calc(14/24);
 }
 .our-team-item {
-    background-color: #ffffff;
+
 }
 .item-title {
     font-weight: 700;
     font-size: 18px;
-    line-height: 24px;
+    line-height: calc(18/24);
 }
 .item-text {
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: calc(30/16);
 }
 .our-team-item-title {
     font-weight: 500;
     font-size: 16px;
-    line-height: 18.75px;
+    line-height: calc(16/19);
 }
 .our-team-position {
     color: #757575;
     font-weight: 400;
     font-size: 16px;
-    line-height: 18.75px;
+    line-height: calc(16/19);
 }
 .contacts {
-    color: #ffffff;
+    color: var(--background-color);
+    font-style: normal;
 }
 .logo-footer {
-    color: #ffffff;
+    color: var(--background-color);
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 30.52px;
+    line-height: calc(26/31);
 }
 .section-work-examples {
     background-color: #f5f5f5;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16.41px
+    line-height: calc(14/16)
 }
