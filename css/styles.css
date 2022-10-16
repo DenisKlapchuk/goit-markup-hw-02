@@ -160,7 +160,7 @@ color: #212121;
     letter-spacing: 0.03em;
 }
 .logo-footer {
-    color: var(--background-color 68%);
+    color: var(--background-color);
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 26px;
