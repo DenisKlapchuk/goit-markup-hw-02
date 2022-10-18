@@ -37,7 +37,8 @@ color: #212121;
 .primary-button {
     background-color: var(--secondary-color);
     cursor: pointer;
-    font-weight: 500;
+    font-style: normal;
+    font-weight: 700;
     font-size: 16px;
     line-height:calc(30/16);
     letter-spacing: 0.06em;
@@ -180,12 +181,14 @@ color: #212121;
     letter-spacing: 0.03em;
 }
 .portfolio-button {
-    color: #212121
-    font-style: normal;
+    color: #212121;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.03em
-
+    
 } 
-
+.portfolio-button:hover {
+    color: var(--background-color);
+    background-color: var(--primary-color);
+}
