@@ -28,14 +28,15 @@ ul {
     letter-spacing: 0.02em;
 }
 .nav-link {
-font-weight: 500;
-font-size: 14px;
-line-height: calc(16/14);
-letter-spacing: 0.02em;
-color: #212121;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16/14);
+    letter-spacing: 0.02em;
+    color: #212121;
 }
 .primary-button {
-    background-color: var(--secondary-color);
+    background-color: #2196f3;
     cursor: pointer;
     font-style: normal;
     font-weight: 700;
@@ -43,14 +44,15 @@ color: #212121;
     line-height:calc(30/16);
     letter-spacing: 0.06em;
     border: none;
+    font-family: inherit;
 }
 .primary-button:hover {
     color: var(--background-color);
-    background-color: var(--primary-color);
+    background-color: #1886f3;
 }
 .primary-button:focus {
     color: var(--background-color);
-    background-color: var(--primary-color);
+    background-color: #1886f3;
 }
 
 .heder-contacts {
@@ -93,6 +95,7 @@ color: #212121;
     letter-spacing: 0.03em
 }
 .features-text {
+    color: #757575;
     font-size: 14px;
     font-weight: 400;
     line-height: calc(24/14);
@@ -101,6 +104,11 @@ color: #212121;
 .section-what-do-we-do {
     font-style: normal;
     color: #212121;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42/36);
+    letter-spacing: 0.03em;
 }
 .what-do-we-do-title {
     font-style: normal;
