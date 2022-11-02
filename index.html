@@ -4,31 +4,33 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-skale=1.0" />
         <title>Document</title>
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="./css/styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"/>
+        <link rel="stylesheet" href="./css/styles.css"/>
     </head>
     <body> 
         <header class="page-header">
-            <nav>
+            <nav class="container main-nav">
             <a href="/" class="logo-header">
                 <span class="logo-web">Web</span>Studio</a>
-            <ul class="site-nav">
-                <li><a href="./index.html" class="nav-link">Студія</a></li>
-                <li><a href="./portfolio.html" class="nav-link">Портфоліо</a></li>
-                <li><a href="" class="nav-link">Контакти</a></li>
+            <ul class="site-nav list">
+                <li class="item"><a href="./index.html" class="nav-link">Студія</a></li>
+                <li class="item"><a href="./portfolio.html" class="nav-link">Портфоліо</a></li>
+                <li class="item"><a href="" class="nav-link">Контакти</a></li>
             </ul>
-        </nav>
+            <div class="heder-contacts-conteiner">
         <a class="heder-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
         <a class="heder-contacts" href="tel:+380961111111">+380961111111</a>
+            </div>
+            </nav>
         </header>
         <main>
             <section class="section-hero">
-                <h1 class="hero-title"lang="uk">Ефективні рішення для <br /> вашого бізнесу</h1>
-                <button class="primary-button" name="button">Замовити послугу</button>
-            </section> 
+                <h1 class="hero-title" lang="uk">Ефективні рішення для <br /> вашого бізнесу</h1>
+                <button class="primary-button" name="button">Замовити послугу</button> 
+            </section>
             <section class="section-features">
                 <ul>
                     <li><h3 class="features-title">УВАГА ДО ДЕТАЛЕЙ</h3>
@@ -44,22 +46,22 @@
                     <p class="features-text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
                 </li>
             </ul>     
-                </section>
-        <section class="section-what-do-we-do">
-            <h2 lang="uk" class="-do-whatwe-do-title">Чим ми займаємося</h2>
+            </section>
+            <section class="section-what-do-we-do">
+            <h2 lang="uk" class="what-do-we-do-title">Чим ми займаємося</h2>
                 <ul>
-                    <li>
+                    <li class="what-do-we-do-item">
                         <img src="./images/box1.jpg" alt="Розробляемо программне забезпечення" width="370"/>
                     </li>
-                    <li>
+                    <li class="what-do-we-do-item">
                         <img src="./images/img1.jpg" alt="Розробляємо мобильні додатки" width="370"/>
                     </li>
-                    <li>
+                    <li class="what-do-we-do-item">
                         <img src="./images/img2.jpg" alt="Займаємося дизайном " width="370"/>
                     </li>
                 </ul>
-        </section>
-        <section class="section-our-team">
+            </section>
+            <section class="section-our-team">
             <h2 lang="uk">Наша команда</h2>
                 <ul>
                     <li class="our-team-item">
@@ -83,16 +85,18 @@
                         <p class="our-team-position">UI Designer</p>
                     </li>
                 </ul>
-        </section>
+            </section>
     </main>
         <footer class="footer">
+            <div class="footer-conteiner">
             <a href="/" class="logo-footer">
                 <span class="logo-web">Web</span>Studio</a>
             <address class="contacts-footer">
-                <p>м. Київ, пр-т Лесі Українки, 26</p>
+                   <p>м. Київ, пр-т Лесі Українки, 26</p>
                 <p><a class="footer-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a></p>
                 <p><a class="footer-contacts" href="tel:+380961111111">+380961111111</a></p>
             </address>
+            </div>
         </footer>
     </body>
 </html>

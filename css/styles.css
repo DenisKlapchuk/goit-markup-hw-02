@@ -1,3 +1,12 @@
+html {
+    box-sizing: border-box;
+}
+    *,
+    *::before,
+    *::after {
+        box-sizing: inherit ;
+    }
+
 :root {
     --primary-color: #2196f3;
     --background-color: #ffffff;
@@ -6,19 +15,41 @@
 body {
     font-family: "Roboto", sans-serif; 
 }
+h2 {
+    text-align: center;
+}
+li {
+    flex-wrap: nowrap;
+}
 a {
    text-decoration: none;
 }
 ul {
+    display: flex;
     list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+.page-header {
+    width: 1200px;
+    margin:0 auto;
+
 }
 .logo-header {
+    padding-top: 24px;
+    padding-right: 93px;
     color: #000000;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: calc(16/26);
     letter-spacing: 0.02em;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+}
+.main-nav {
+    display: flex;
 }
 .logo-web {
     color: var(--primary-color);
@@ -27,7 +58,18 @@ ul {
     line-height: calc(30/26);
     letter-spacing: 0.02em;
 }
+.site-nav {
+    margin-right: 344px;
+    display: flex;
+    padding-top: 32px;
+    align-items: center;
+}
+.site-nav .item:not(:last-child) {
+    margin-right: 50px;
+}
 .nav-link {
+    display: block;
+    padding-bottom: 32px;
     font-family: inherit;
     font-weight: 500;
     font-size: 14px;
@@ -35,6 +77,7 @@ ul {
     letter-spacing: 0.02em;
     color: #212121;
 }
+
 .primary-button {
     background-color: #2196f3;
     cursor: pointer;
@@ -45,6 +88,9 @@ ul {
     letter-spacing: 0.06em;
     border: none;
     font-family: inherit;
+    width: 216px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .primary-button:hover {
     color: var(--background-color);
@@ -63,8 +109,14 @@ ul {
     letter-spacing: 0.02em;
 
 }
+.heder-contacts-conteiner .heder-contacts:not(:first-child) {
+    margin-left: 50px;
+}
 .heder-contacts:hover {
     color: var(--primary-color);
+}
+.heder-contacts-conteiner {
+    padding-top: 32px;
 }
 
 .hero-title {
@@ -74,21 +126,31 @@ ul {
     text-transform: uppercase;
     line-height: calc(60/44);
     letter-spacing: 0.06em;
+    text-align: center;
 }
 .section-hero {
+    display: flex;
+    height: 600px;
+    flex-direction: column;
+    justify-content: center;
     background-color: #2F303A;
+   
 }
 .section-features {
     background-color:  var(--background-color);
 }
 .features-title {
+    display: flex;
     color: #212121;
     font-size: 14px;
     font-weight: 700;
     line-height: calc(16/14);
     letter-spacing: 0.03em;
+    margin-top: 94px;
 }
 .section-features {
+    margin:0 auto;
+    width: 1200px;
     font-weight: 700;
     font-size: 14px;
     line-height: calc(16/14); 
@@ -102,7 +164,10 @@ ul {
     letter-spacing: 0.03em;
 }
 .section-what-do-we-do {
+    margin:0 auto;
     font-style: normal;
+    width: 1200px;
+    background-color: #ffffff;
     color: #212121;
     font-style: normal;
     font-weight: 700;
@@ -110,7 +175,15 @@ ul {
     line-height: calc(42/36);
     letter-spacing: 0.03em;
 }
+.what-do-we-do-item {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
 .what-do-we-do-title {
+    margin-bottom: 15px;
+    margin-left: 15px;
+    align-items: center;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -119,10 +192,17 @@ ul {
 }
 .section-our-team {
     font-style: normal;
-    background-color: var (--secondary-color);
+    background-color: var(--secondary-color);
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .footer {
     color: var(--background-color);
+    height: 252px;
+    padding: 60px;
     background-color: #2F303A;
     font-weight: 500;
     font-size: 14px;
@@ -130,11 +210,16 @@ ul {
     letter-spacing: 0.03em;
 }
 .our-team-item {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-left:0 auto;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: calc(36/18);
     letter-spacing: 0.06em;
+    padding-top: 50px;
+    text-align: center;
 }
 .item-title {
     font-weight: 700;
@@ -155,6 +240,10 @@ ul {
     font-size: 16px;
     line-height: calc(19/16);
     letter-spacing: 0.03em;
+}
+.our-team-item-wrap {
+    display: flex;
+    flex-wrap: wrap;
 }
 .our-team-position {
     color: #757575;
@@ -183,6 +272,7 @@ ul {
     letter-spacing: 0.03em;
 }
 .button-container {
+    justify-content: center;
     font-weight: 500;
     font-size: 16px;
     line-height: calc(26/16);
@@ -193,10 +283,24 @@ ul {
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
-    letter-spacing: 0.03em
+    letter-spacing: 0.03em;
+    border:none;
+    border-radius: 4px;
+    
     
 } 
+.button-container .item-work-exemples:not(:last-child) {
+    margin-right: 8px;
+}
+.footer-conteiner {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .portfolio-button:hover {
     color: var(--background-color);
     background-color: var(--primary-color);
+}
+.portfolio-item {
+    width: 1200px;
 }
