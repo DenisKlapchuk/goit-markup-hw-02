@@ -20,11 +20,11 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2E2F42;
-    text-decoration: none;
+    color: #4D5AE5;
+    
 }
 .logo-web {
-    color: var(--primary-color);
+    color: #2E2F42;
     text-decoration: none;
 }
 .header-link {
