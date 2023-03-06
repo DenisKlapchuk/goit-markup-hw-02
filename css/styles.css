@@ -59,10 +59,10 @@ body {
     font-style: normal
 }
 .addres-list :focus {
-    color: var(--secondary-color);
+    color: #404bbf;
 }
 .addres-list :hover {
-    color: var(--primary-color)
+    color: #404bbf
 }
 
 /**--section-hero--*/
