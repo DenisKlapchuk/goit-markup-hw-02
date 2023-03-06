@@ -38,10 +38,10 @@ body {
     text-decoration: none;
 }
 .header-list :focus {
-    color: var(--secondary-color);
+    color: #404bbf;
 }
 .header-list :hover {
-    color: var(--primary-color)
+    color: #404bbf
 }   
 .list {
     list-style: none;
