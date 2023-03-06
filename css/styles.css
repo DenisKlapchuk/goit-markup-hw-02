@@ -21,6 +21,9 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
+    
+}
+.heder-logo.link {
     text-decoration: none;
 }
 .logo-web {
