@@ -23,12 +23,10 @@ body {
     color: #4D5AE5;
     
 }
-.heder-logo.link {
-    text-decoration: none;
-}
-.logo-web {
+
+.logo-web-link {
     color: #2E2F42;
-    
+    text-decoration: none;
 }
 .header-link {
     font-weight: 500;
