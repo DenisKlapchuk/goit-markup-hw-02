@@ -42,7 +42,10 @@ body {
 }
 .header-list :hover {
     color: var(--primary-color)
-}    
+}   
+.list {
+    list-style: none;
+}
 .address-link {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
