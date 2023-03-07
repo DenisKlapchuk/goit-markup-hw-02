@@ -9,6 +9,12 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455 ;
 }
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
 
 /**--header--*/
 
@@ -34,18 +40,15 @@ body {
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
-.link {
-    text-decoration: none;
-}
+
+
 .header-list :focus {
     color: #404bbf;
 }
 .header-list :hover {
     color: #404bbf
 }   
-.list {
-    list-style: none;
-}
+
 .address-link  {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
