@@ -79,7 +79,7 @@ body {
 
 }
 .primary-button {
-    font-family: 'Roboto', sans-serif;
+    font-family: z, sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -111,6 +111,8 @@ body {
     color: #2E2F42; 
 }
 .features-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -169,6 +171,9 @@ body {
     color: #F4F4FD;
 }
 .footer-text {
+    font-family: 'roboto', sans-serif;
+    font-style: normal;
+    font-weight: 800;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
