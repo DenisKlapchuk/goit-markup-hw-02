@@ -191,13 +191,13 @@ body {
     letter-spacing: 0.04em;
     color:#4D5AE5;
     cursor: pointer;
-    
 }
 
 .item-work-exemples :hover {
     color: var(--background-color);
     background-color: #404BBF;
 }
+
 
 .item-title {
     font-weight: 500;
