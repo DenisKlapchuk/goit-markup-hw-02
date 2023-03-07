@@ -151,6 +151,10 @@ body {
 }
 
 /**--footer-- */
+.footer {
+    background-color:#2e2f42;
+}
+
 .footer-logo-link {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -161,11 +165,14 @@ body {
     text-transform: uppercase;
     color: #4D5AE5;
 }
+.logo-web-footer {
+    color: #F4F4FD;
+}
 .footer-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:  #2E2F42;
+    color:  #E7E9FC;
 }
 
 /**--section-portfolio*/
