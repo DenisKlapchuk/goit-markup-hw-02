@@ -115,7 +115,6 @@ body {
 }
 .features-text {
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -178,7 +177,6 @@ body {
 .footer-text {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-weight: 800;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -196,7 +194,7 @@ body {
     cursor: pointer;
 }
 
-.item-work-exemples :hover {
+.portfolio-button:hover {
     color: var(--background-color);
     background-color: #404BBF;
 }
@@ -210,7 +208,6 @@ body {
     color: #2E2F42;  
 }
 .item-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
